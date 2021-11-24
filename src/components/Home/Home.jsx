@@ -2,13 +2,12 @@ import React, { useState, useEffect } from "react";
 import Form from "../Form/Form.jsx";
 import Posts from "../Posts/Posts.jsx";
 import { useDispatch } from "react-redux";
-import { getPosts, getPostsBySearch } from "../../redux/actions/postsActions";
+import { getPostsBySearch } from "../../redux/actions/postsActions";
 import Paginate from "../Pagination/Pagination.jsx";
 import { useNavigate, useLocation } from "react-router-dom";
 import ChipInput from "material-ui-chip-input";
 import useStyles from "./styles";
 import { Container, Grow, Grid, Paper, AppBar, TextField, Button } from "@material-ui/core"
-import TablePaginationActions from "@material-ui/core/TablePagination/TablePaginationActions";
 
 function useQuery() {
   // we made the URLSearchParams in a use function to use it as a hook
