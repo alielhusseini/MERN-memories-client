@@ -2,7 +2,6 @@ import React from "react";
 import { Container } from "@material-ui/core";
 import Navbar from "./components/Navbar/Navbar.jsx";
 import Home from "./components/Home/Home.jsx";
-import Auth from "./components/Auth/Auth.jsx";
 import PostDetails from "./components/PostDetails/PostDetails";
 import AuthRedirect from "./components/Auth/AuthRedirect.jsx";
 import {
